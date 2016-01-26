@@ -10,3 +10,4 @@ Creating a new branch is quick AND simple.
 www.runoob.com					菜鸟教程
 www.w3cschool.com.cn			w3cschool
 http://python.usyiyi.cn/		python官方文档中文站
+https://docs.python.org/3/library/functions.html	所有python内置函数
