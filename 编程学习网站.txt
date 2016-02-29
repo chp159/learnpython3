@@ -4,6 +4,7 @@ Git is a distribute version control system.
 Git is free software distributed under the GPL.
 Creating a new branch is quick.Just for test.
 Creating a new branch is quick AND simple.
+如果git status中log不显示文件名称，显示为一组数字则需要执行：git config --global core.quotepath false
 测试一下是不是有颜色显示.
 
 编程学习网站
