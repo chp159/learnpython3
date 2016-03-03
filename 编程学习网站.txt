@@ -17,3 +17,4 @@ http://www.bejson.com/			各种转换工具
 http://old.sebug.net/paper/books/dive-into-python3/index.html	深入python3的在线教程
 http://www.pythondoc.com/		The Python Tutorial中文翻译版
 http://www.pythoner.com/		Pythoner编程学习网站
+http://blog.csdn.net/a359680405/article/category/2799089		根号下的麻辣烫python博客
