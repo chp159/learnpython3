@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 import socket
-import traceback
+import traceback,sys
 from time import strftime,localtime
 from socketserver import ThreadingTCPServer,StreamRequestHandler
 '''
@@ -22,9 +22,11 @@ class myhandler(StreamRequestHandler):      #自定义handler类
             try:
                 data = self.rfile.readline().strip().decode()       #使用rfile接收，无需考虑大小限制；
                                                                     # decode()函数把bytes类型转化为str
+                #data = self.connection.recv(4096).decode()
                 if data:                                            #若不加if else，则客户端断开连接后，仍然会继续打印空数据
                     print(strftime('%Y-%m-%d %H:%M:%S',localtime())+'   '+str(self.client_address)+'    ' +data)
                     self.wfile.write('发送成功！'.encode())
+                    #self.connection.send('发送成功！'.encode())
                 else:
                     break
             except ConnectionResetError:
@@ -32,6 +34,9 @@ class myhandler(StreamRequestHandler):      #自定义handler类
                 break
             except:
                 traceback.print_exc()
-
-server = ThreadingTCPServer((host,port),myhandler)
-server.serve_forever()
+try:
+    server = ThreadingTCPServer((host,port),myhandler)
+    server.serve_forever()
+except OSError:
+    print('端口被占用！')
+    sys.exit()
