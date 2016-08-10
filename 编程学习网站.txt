@@ -8,14 +8,15 @@ Creating a new branch is quick AND simple.
 测试一下是不是有颜色显示.
 
 编程学习网站
-www.runoob.com					菜鸟教程
-www.w3cschool.com.cn			w3cschool
-http://python.usyiyi.cn/		python官方文档中文站
-https://docs.python.org/3/library/functions.html	所有python内置函数
-https://pypi.python.org/pypi	python官方的第三方库
-http://www.bejson.com/			各种转换工具
-http://old.sebug.net/paper/books/dive-into-python3/index.html	深入python3的在线教程
-http://www.pythondoc.com/		The Python Tutorial中文翻译版
-http://www.pythoner.com/		Pythoner编程学习网站
-http://blog.csdn.net/a359680405/article/category/2799089		根号下的麻辣烫python博客
-http://www.yiibai.com/			易百教程，各种IT类教程
+www.runoob.com															菜鸟教程
+www.w3cschool.com.cn													w3cschool
+http://python.usyiyi.cn/												python官方文档中文站
+https://docs.python.org/3/library/functions.html						所有python内置函数
+https://pypi.python.org/pypi											python官方的第三方库
+http://www.bejson.com/													各种转换工具
+http://old.sebug.net/paper/books/dive-into-python3/index.html			深入python3的在线教程
+http://www.pythondoc.com/												The Python Tutorial中文翻译版
+http://www.pythoner.com/												Pythoner编程学习网站
+http://blog.csdn.net/a359680405/article/category/2799089				根号下的麻辣烫python博客
+http://www.yiibai.com/													易百教程，各种IT类教程
+http://www.lfd.uci.edu/~gohlke/pythonlibs/								编译好的Windows二进制python插件安装包		
